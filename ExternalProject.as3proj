@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+  <output>
+    <movie width="800"/>
+    <movie disabled="False"/>
+    <movie path="bin-debug/App.swf"/>
+    <movie platform="Flash Player"/>
+    <movie fps="60"/>
+    <movie version="11"/>
+    <movie height="600"/>
+    <movie background="#0F00FF"/>
+    <movie input=""/>
+  </output>
+  &lt;!-- Other classes to be compiled into your SWF --&gt;
+  <jsOutput>
+    <option path="/Users/viky/Desktop/royale/Royale-ECharts"/>
+  </jsOutput>
+  <classpaths>
+    <class path="royale-echarts-examples/src"/>
+  </classpaths>
+  <moonshineResourcePaths></moonshineResourcePaths>
+  <moonshineNativeExtensionPaths></moonshineNativeExtensionPaths>
+  <build>
+    <option staticLinkRSL="False"/>
+    <option locale=""/>
+    <option showUnusedTypeSelectorWarnings="True"/>
+    <option useNetwork="True"/>
+    <option es="False"/>
+    <option compilerConstants=""/>
+    <option showBindingWarnings="True"/>
+    <option allowSourcePathOverlap="False"/>
+    <option sourceMap="False"/>
+    <option useResourceBundleMetadata="True"/>
+    <option benchmark="False"/>
+    <option warnings="True"/>
+    <option customSDK="/Users/viky/Downloads/MoonshineSDKs/Royale_SDK/apache-royale-0.9.7-bin-js/royale-asjs"/>
+    <option showActionScriptWarnings="True"/>
+    <option showDeprecationWarnings="True"/>
+    <option antBuildPath="build/build.xml"/>
+    <option verboseStackTraces="False"/>
+    <option loadConfig=""/>
+    <option additional=""/>
+    <option linkReport=""/>
+    <option optimize="False"/>
+    <option strict="True"/>
+    <option accessible="False"/>
+  </build>
+  <mavenBuild>
+    <option mavenBuildPath="/Users/viky/Desktop/royale/Royale-ECharts"/>
+    <option settingsFilePath="/Users/viky/Downloads/apache-maven-3.6.3/conf/settings.xml"/>
+    <option commandLine=""/>
+    <actions>
+      <action actionName="Build" action="install"/>
+      <action actionName="Clean and package" action="clean package"/>
+      <action actionName="Clean" action="clean"/>
+      <action actionName="Clean and Build" action="clean install"/>
+      <action actionName="Exploded" action="war:exploded"/>
+    </actions>
+  </mavenBuild>
+  <includeLibraries></includeLibraries>
+  <libraryPaths></libraryPaths>
+  <externalLibraryPaths></externalLibraryPaths>
+  <rslPaths></rslPaths>
+  <intrinsics>
+    <element path="Library/AS3/frameworks/Flex4"/>
+    <element path="Library\AS3\frameworks\Flex4"/>
+  </intrinsics>
+  <library></library>
+  <compileTargets>
+    <compile path="royale-echarts-examples/src/main/royale/App.mxml"/>
+  </compileTargets>
+  <hiddenPaths></hiddenPaths>
+  <preBuildCommand>null</preBuildCommand>
+  <postBuildCommand alwaysRun="False">null</postBuildCommand>
+  <trustSVNCertificate>False</trustSVNCertificate>
+  <options>
+    <option showHiddenPaths="False"/>
+    <option isPrimeFacesVisualEditor="False"/>
+    <option testMovie=""/>
+    <option visualEditorExportPath=""/>
+    <option testMovieCommand=""/>
+    <option defaultBuildTargets=""/>
+    <option isRoyale="True"/>
+    <option isExportedToExistingSource="False"/>
+  </options>
+  <moonshineRunCustomization>
+    <option deviceSimulator="null"/>
+    <option projectType="2"/>
+    <option launchMethod="Simulator"/>
+    <option urlToLaunch="/Users/viky/Desktop/royale/Royale-ECharts/bin/js-debug/index.html"/>
+    <option targetPlatform="5"/>
+    <option customUrlToLaunch=""/>
+    <deviceSimulator>null</deviceSimulator>
+    <certAndroid>null</certAndroid>
+    <certIos>null</certIos>
+    <certIosProvisioning>null</certIosProvisioning>
+  </moonshineRunCustomization>
+</project>
